@@ -12,7 +12,7 @@ interface Patient {
   gender: string;
 }
 
-const PAGE_SIZE = 20; // Number of patients to fetch per page
+const PAGE_SIZE = 20; 
 
 const PatientList: React.FC = () => {
   const [patients, setPatients] = useState<Patient[]>([]);
